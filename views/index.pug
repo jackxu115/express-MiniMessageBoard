@@ -1,0 +1,13 @@
+extends layout
+
+block content
+    h1= title
+    p Welcome to #{title}
+    a(href="/new" class="link") Add a new message
+    table(class='table')
+        each item in message
+            tr(class='row')
+                th(class='head')=item.user
+                td(class='data')
+                    p=item.text
+                    p=item.added

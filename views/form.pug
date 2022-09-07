@@ -1,0 +1,11 @@
+extends layout
+
+block content
+    h1 New Message
+    form(action='/new' method='POST' class="form")
+        label(for='name') Name
+        input#name(type='text' name='messageUser' required='')
+        label(for='message') Message
+        textarea#message(name='messageText' rows='3' required='')
+        button(class="submitBtn") Submit Message
+        a(href='/' role='button' class='link') Go Back

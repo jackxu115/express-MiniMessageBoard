@@ -1,0 +1,74 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #222831;
+  color: #dddddd;
+}
+
+a {
+  color: #30475e;
+}
+
+.table {
+  margin: 20px;
+  background-color: #2d4059;
+  border-radius: 10px;
+  max-width: 1200px;
+  min-width: 800px ;
+}
+
+.row {
+  margin: 20px;
+}
+
+.head {
+  font-size: 20px;
+  font-weight: 800;
+  border: 2px solid #222831;
+}
+
+.data {
+  border: 2px solid #222831;
+}
+
+.link {
+  text-decoration: none;
+  color: #f05454;
+}
+
+.link:hover {
+  color: #00abd5;
+  transition: all ease-in-out 0.3s;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  margin: 20px;
+}
+
+label {
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+input, textarea {
+  margin: 10px 0;
+}
+
+.submitBtn {
+  margin: 10px 0;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 15px;
+  background-color: #59bacc;
+  color: #000000;
+}
+
+.submitBtn:hover {
+  transform: scale(1.2);
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+}
